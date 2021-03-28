@@ -10,6 +10,7 @@ int main() {
 	while (tt--) {
 		int n, k;
 		cin >> n >> k;
+		// note: I was able to solve this problem only from observation
 		// to calculate 'd', find the ceil of (n / k)
 		int d = (n % k == 0 ? n / k : (n + k - 1) / k);
 		// to calculate 'x', there will be two cases:
